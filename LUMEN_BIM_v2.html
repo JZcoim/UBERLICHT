@@ -2,7 +2,7 @@
 <html lang="pt-BR">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>LUMEN BIM — Biblioteca de iluminação</title>
+<title>UBERLICHIT — Biblioteca de iluminação</title>
 <style>
 :root{--bg:#0b1220;--panel:#121d30;--panel2:#18263d;--line:#293952;--text:#edf3fb;--muted:#9aabc1;--accent:#b8f36b;--blue:#83b7ff;--danger:#ff8b8b}
 *{box-sizing:border-box}body{margin:0;background:linear-gradient(145deg,#0b1220,#101b2c 60%,#14233a);color:var(--text);font:15px/1.45 Inter,system-ui,Segoe UI,Arial,sans-serif}
@@ -25,7 +25,7 @@
 <div class="field"><label>Fluxo luminoso (lm) *</label><input id="lumens" type="number" min="0" required></div><div class="field"><label>Potência (W) *</label><input id="potencia" type="number" min="0" step=".1" required></div>
 <div class="field"><label>Ângulo de abertura (°) *</label><input id="angulo" type="number" min="0" max="360" required></div><div class="field"><label>Temperatura de cor (K) *</label><input id="temperatura" type="number" min="1000" required></div>
 <div class="field"><label>Índice de proteção (IP)</label><input id="ip" placeholder="Ex.: IP44"></div><div class="field"><label>Tensão (V)</label><input id="tensao" placeholder="Ex.: 127/220"></div>
-<div class="field"><label>IRC / Ra</label><input id="irc" type="number" min="0" max="100"></div><div class="field"><label>IRCM (definição a confirmar)</label><input id="ircm" placeholder="Valor / especificação"></div>
+<div class="field"><label>IRC / Ra</label><input id="irc" type="number" min="0" max="100"></div><div class="field"><label>IK</label><input id="ircm" placeholder="Valor / especificação"></div>
 <div class="field"><label>Vida útil (h)</label><input id="vida" type="number" min="0"></div><div class="field"><label>Tipo de geometria</label><select id="geometria"><option value="parametrica">Paramétrica — dimensões editáveis</option><option value="catalogo">Modelo pronto — vinculado ao catálogo</option></select></div>
 <div class="field"><label>Formato / família</label><select id="familia"><option>Spot</option><option>Downlight</option><option>Pendente</option><option>Plafon</option><option>Linear</option><option>Arandela</option><option>Projetor</option><option>Fita LED</option><option>Outro</option></select></div>
 <div class="field"><label>Diâmetro (mm)</label><input id="diametro" type="number" min="0" placeholder="Ex.: 90"></div><div class="field"><label>Altura / comprimento (mm)</label><input id="altura" type="number" min="0" placeholder="Ex.: 65"></div>
